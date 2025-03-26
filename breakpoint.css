@@ -133,6 +133,35 @@
   .about-content p {
     font-size: 1.3rem;
   }
+  
+  #habilidades .containerr .div-card {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+  }
+
+  #habilidades .containerr .div-card-item {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 4px;
+    top: 50%;
+    left: 50%;
+    background-position: center;
+    transform: translateX(-50%) translateY(-50%);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  #habilidades .containerr .div-card span {
+    position: relative;
+    display: table;
+    margin-top: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center !important;
+  }
   .education-container .education-box {
     flex: 100rem;
   }
@@ -184,11 +213,11 @@
 
   .home-img {
     margin-top: 10rem;
-    margin-left: -15rem;
+    margin-left: -19rem;
   }
   .home-img img {
     width: 35vw;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
   }
   .home-content h1 {
     font-size: 2rem;
@@ -229,10 +258,40 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
   }
+  
   .portfolio-container {
     grid-template-columns: repeat(1, 1fr);
-    height: 1600px;
-    gap: 1.4rem;
+    gap: 1rem;
+    height: auto; /* Cambiamos a auto para que se ajuste al contenido */
+    padding-bottom: 2rem;
+  }
+  
+  .portfolio-box {
+    height: 220px; /* Altura más compacta para cada proyecto */
+  }
+  
+  .portfolio-box img {
+    height: 150px; /* Altura fija para las imágenes */
+    object-fit: cover; /* Asegura que la imagen cubra el espacio */
+  }
+  
+  .portfolio-layer {
+    padding: 1rem;
+  }
+  
+  .portfolio-layer h4 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .portfolio-layer p {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .portfolio-layer a {
+    font-size: 1.2rem;
+    margin: 0 0.3rem;
   }
   .footer-text p {
     font-size: 0.9rem;
@@ -240,7 +299,8 @@
 }
 @media (max-width: 391px) {
   .home-img {
-    display: none;
+    margin-top: 10rem;
+    margin-left: -19rem;
   }
   .home-content h1 {
     line-height: 2;
@@ -248,8 +308,10 @@
   .home-content div {
     font-size: 1.4rem;
   }
-  .about-img {
-    display: none;
+
+  .about-img img {
+    width: 45vw;
+    margin-top: -5rem;
   }
   .social-media a {
     margin-left: 0.1rem;
@@ -257,6 +319,26 @@
   }
   .btn {
     font-size: 1.2rem;
+  }
+    
+  .portfolio-box {
+    height: 200px; /* Un poco más compacto en pantallas muy pequeñas */
+  }
+  
+  .portfolio-box img {
+    height: 130px;
+  }
+  
+  .portfolio-layer h4 {
+    font-size: 1rem;
+  }
+  
+  .portfolio-layer p {
+    font-size: 0.7rem;
+  }
+  
+  .portfolio-layer a {
+    font-size: 1rem;
   }
   .footer-text p {
     font-size: 0.8rem;
