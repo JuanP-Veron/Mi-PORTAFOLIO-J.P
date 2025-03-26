@@ -388,16 +388,16 @@ span {
 /*iconos */
 
 #habilidades .containerr .div-card .html {
-  background-image: url("html5-brands.svg");
+  background-image: url("assets/img/habilidad/html5.svg");
 }
 #habilidades .containerr .div-card .css {
-  background-image: url("css3-brands.svg");
+  background-image: url("assets/img/habilidad/css3.svg");
 }
 #habilidades .containerr .div-card .js {
-  background-image: url("js-brands.svg");
+  background-image: url("assets/img/habilidad/js.svg");
 }
 #habilidades .containerr .div-card .react {
-  background-image: url("react-brands.svg");
+  background-image: url("assets/img/habilidad/react.svg");
 }
 #habilidades .containerr .div-card .express::before {
   content: "Express";
@@ -405,19 +405,19 @@ span {
   align-items: center;
 }
 #habilidades .containerr .div-card .NodeJs {
-  background-image: url("node-js-brands.svg");
+  background-image: url("assets/img/habilidad/node-js.svg");
 }
 #habilidades .containerr .div-card .Bootstrap {
-  background-image: url("bootstrap-brands.svg");
+  background-image: url("assets/img/habilidad/bootstrap.svg");
 }
 #habilidades .containerr .div-card .php {
-  background-image: url("php-brands.svg");
+  background-image: url("assets/img/habilidad/php.svg");
 }
 #habilidades .containerr .div-card .git {
-  background-image: url("git-alt-brands.svg");
+  background-image: url("assets/img/habilidad/git-alt.svg");
 }
 #habilidades .containerr .div-card .mysql {
-  background-image: url("mysql-logo-svgrepo-com.svg");
+  background-image: url("assets/img/habilidad/mysql.svg");
 }
 #habilidades .containerr .div-card .jQuery::before {
   content: "jQuery";
