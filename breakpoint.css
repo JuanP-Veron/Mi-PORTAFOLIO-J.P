@@ -313,6 +313,9 @@
     width: 45vw;
     margin-top: -5rem;
   }
+  .social-media {
+    margin-left: 0;
+  }
   .social-media a {
     margin-left: 0.1rem;
     font-size: 1.6rem;
