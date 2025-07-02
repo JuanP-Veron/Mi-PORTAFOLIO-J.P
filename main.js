@@ -1,5 +1,5 @@
 /* ==================== 
-  toggle icon navbar 
+    Alternar Icono de Navegación
 ====================== */
 let menuIcon = document.querySelector("#menu-icon");
 let navbar = document.querySelector(".navbar");
@@ -10,7 +10,7 @@ menuIcon.onclick = () => {
 };
 
 /* =========================== 
-    Scroll Section Active Link 
+    Enlace Activo al Desplazarse por Secciones 
 ============================= */
 let sections = document.querySelectorAll("section");
 let navLinks = document.querySelectorAll("header nav a");
@@ -33,20 +33,20 @@ window.onscroll = () => {
   });
 
   /* ========================
-      Sticky Navbar 
+      Barra de Navegación Fija 
 =========================== */
   let header = document.querySelector("header");
   header.classList.toggle("sticky", window.scrollY > 100);
 
   /* ===================== 
-    Menu Icon Navbar 
+    Remover Icono y Navegación al Hacer Click en Enlaces 
 ====================== */
   menuIcon.classList.remove("bx-x");
   navbar.classList.remove("active");
 };
 
 /* ===================== 
-    Scroll Reveal 
+    Efecto Scroll Reveal 
 ====================== */
 ScrollReveal({
   reset: true,
@@ -67,7 +67,7 @@ ScrollReveal().reveal(".home-content p, .div2", { origin: "right" });
     Typed Js 
 ====================== */
 const typed = new Typed(".multiple-text", {
-  strings: ["Programador Junior"],
+  strings: ["Programador"],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 1000,
