@@ -273,7 +273,6 @@
   }
   
   .portfolio-box img {
-    height: 150px; /* Altura fija para las imágenes */
     object-fit: cover; /* Asegura que la imagen cubra el espacio */
   }
   
