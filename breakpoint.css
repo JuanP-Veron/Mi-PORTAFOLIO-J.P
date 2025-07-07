@@ -271,10 +271,7 @@
   .portfolio-box {
     height: 220px; /* Altura más compacta para cada proyecto */
   }
-  
-  .portfolio-box img {
-    object-fit: cover; /* Asegura que la imagen cubra el espacio */
-  }
+
   
   .portfolio-layer {
     padding: 1rem;
