@@ -264,7 +264,7 @@
   .portfolio-container {
     grid-template-columns: repeat(1, 1fr);
     gap: 1rem;
-    height: auto; /* Cambiamos a auto para que se ajuste al contenido */
+    height: auto; 
     padding-bottom: 2rem;
   }
   
@@ -324,10 +324,6 @@
     
   .portfolio-box {
     height: 200px; /* Un poco más compacto en pantallas muy pequeñas */
-  }
-  
-  .portfolio-box img {
-    height: 130px;
   }
   
   .portfolio-layer h4 {
