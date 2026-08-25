@@ -6,7 +6,8 @@ Este es un portafolio personal desarrollado con **HTML5**, **CSS3**, **JavaScrip
 
 Puedes ver el demo de mi portafolio en vivo haciendo clic en el siguiente enlace:
 
-- [Mi Portafolio en vivo](https://tu-portafolio.com)
+- [Mi Portafolio en vivo]((https://juanp-veron.github.io/Mi-PORTAFOLIO-J.P/))
+
 
 ---
 
